@@ -1,0 +1,18 @@
+# Actividad 4.1 - Ficha de estudiante
+nombre = input("Nombre del estudiante: ")
+edad = int(input("Edad: "))
+carrera = input("Carrera: ")
+promedio = float(input("Promedio: "))
+
+estudiante = {
+    "nombre": nombre,
+    "edad": edad,
+    "carrera": carrera,
+    "promedio": promedio
+}
+
+print("\n--- FICHA DE ESTUDIANTE ---")
+print(f"Nombre: {estudiante['nombre']}")
+print(f"Edad: {estudiante['edad']} años")
+print(f"Carrera: {estudiante['carrera']}")
+print(f"Promedio: {estudiante['promedio']}")
